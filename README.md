@@ -25,5 +25,6 @@ python manage.py runserver
 ## Usage
 Accessing the Landing Page
 Visit http://127.0.0.1:8000/ in your browser to view the landing page.
+Admin user login `admin` password is `1`
 ### Using the API Endpoint
 To fetch an advertisement, make a GET request to `/api/advertisement/?id=<EXTERNAL_ID>&api_key=<YOUR_API_KEY>`
