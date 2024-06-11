@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load django_bootstrap5 %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 offset-md-3">
+            <p class="fs-4">
+                Здравствуйте, {{request.user.username}}!
+            </p>
+            <p class="fs-5">
+                Первоначальная регистрация была успешно пройдена.
+            </p>
+            <p class="fs-6">
+                Чтобы продолжить регистрацию свяжитесь с администратором сайта для установки статуса менеджера и ФИО в системе.
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
